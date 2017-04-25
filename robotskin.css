@@ -76,3 +76,39 @@ nav ul li>a:hover {
   color: red;
   background-color: white;
 }
+
+/*background color*/
+
+body {
+  background-color: white;
+}
+
+/*footer*/
+
+footer p {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding-left: 655px;
+  height: 45px;
+  width: 300px;
+  color: white;
+  background-color: black;
+
+}
+
+address {
+  text-align: center;
+
+}
+
+.textcontent {
+  text-align: center;
+
+
+}
+
+.smalltext {
+  text-align: center;
+  float: center;
+}
