@@ -1,4 +1,6 @@
-.headerlogo {
-  height: 50%;
-  width: 50%;
+header div a img {
+  position: relative;
+  margin-left: auto;
+  height: 300px;
+  width: 300px;
 }
