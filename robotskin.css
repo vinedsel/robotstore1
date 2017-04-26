@@ -126,6 +126,39 @@ address {
   column-count: 2;
 }
 
+/*all borders*/
+
 fieldset {
   border: none;
+}
+
+/*bot name changes*/
+
+h4 {
+  font-family: sans-serif, Verdana;
+}
+
+/*hardware changes*/
+
+label {
+  font-family: sans-serif, Verdana;
+}
+
+#i3 {
+  font-family: sans-serif, Verdana;
+}
+
+#i4 {
+  font-family: sans-serif, Verdana;
+}
+
+#i7 {
+  font-family: sans-serif, Verdana;
+}
+
+
+/*about change*/
+
+h5 {
+  font-family: sans-serif, Verdana;
 }
