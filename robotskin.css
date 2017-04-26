@@ -89,26 +89,43 @@ footer p {
   position: relative;
   display: block;
   text-align: center;
-  padding-left: 655px;
-  height: 45px;
+  vertical-align: middle;
+  padding-top: 17px;
+  height: 40px;
   width: 300px;
   color: white;
   background-color: black;
+  left: 660px;
 
 }
 
 address {
+  display: block;
+  position: relative;
   text-align: center;
-
+  padding-top: 17px;
+  height: 40px;
+  width: 300px;
+  color: white;
+  background-color: black;
+  left: 660px;
 }
 
 .textcontent {
   text-align: center;
-
-
 }
 
 .smalltext {
   text-align: center;
   float: center;
+}
+
+/*home page text*/
+
+#welcometext {
+  column-count: 2;
+}
+
+fieldset {
+  border: none;
 }
