@@ -1,0 +1,19 @@
+{
+  "name": "robotstore1",
+  "version": "1.0.0",
+  "description": "The first Robot Store project for Coder Camps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinedsel/robotstore1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinedsel/robotstore1/issues"
+  },
+  "homepage": "https://github.com/vinedsel/robotstore1#readme"
+}
