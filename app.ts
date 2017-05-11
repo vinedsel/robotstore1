@@ -1,1 +1,1 @@
-var x
+let x = 1;
