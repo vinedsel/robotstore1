@@ -1,0 +1,21 @@
+{
+  "name": "robotstore1",
+  "homepage": "https://github.com/vinedsel/robotstore1",
+  "authors": [
+    "Raymond Gregory <vinedsel@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "^3.2.1",
+    "less": "^2.7.2"
+  }
+}
