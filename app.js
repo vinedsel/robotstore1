@@ -1,3 +1,4 @@
-$('#fullname').hover(function () {
-    $(this).toggleClass('fullname');
+$('#fullname').focus(function(){
+  let tag = $('input');
+  $(this).addClass('Highlight');
 });
