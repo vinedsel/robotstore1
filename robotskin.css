@@ -162,3 +162,9 @@ label {
 h5 {
   font-family: sans-serif, Verdana;
 }
+
+/*search field focus*/
+
+.focused{
+  border: solid 3px blue;
+  }
