@@ -1,10 +1,4 @@
-// $(document).ready(function() {
-//   $('#fullname').focus(function() {
-//     $(this).addClass('highlight');
-//   });
-// });
-
-// $('#fullname').click(function() { alert('The element myID was clicked'); });
+// Contact page focus group
 
 $(document).ready(function() {
   $("#fullname, #email, #question").mouseover(function() {
@@ -14,3 +8,6 @@ $(document).ready(function() {
     $(this).removeClass("focused");
   });
 });
+
+
+// ----------------------------------------
