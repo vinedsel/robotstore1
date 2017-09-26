@@ -10,4 +10,14 @@ $(document).ready(function() {
 });
 
 
-// ----------------------------------------
+
+// Picture and info highlights
+
+$(document).ready(function() {
+  $("#imgrobo1, #imgrobo2, #imgrobo3").mouseover(function() {
+    $(this).addClass("focused");
+  });
+  $("#imgrobo1, #imgrobo2, #imgrobo3").mouseout(function() {
+    $(this).removeClass("focused");
+  });
+});
