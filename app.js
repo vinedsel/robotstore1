@@ -21,3 +21,14 @@ $(document).ready(function() {
     $(this).removeClass("focused");
   });
 });
+
+// Hardware highlights
+
+$(document).ready(function() {
+  $("#i3, #i4, #i7, #8, #16, #vrh, #3ds, #ss").mouseover(function() {
+    $(this).addClass("hovering");
+  });
+  $("#i3, #i4, #i7, #8, #16, #vrh, #3ds, #ss").mouseout(function() {
+    $(this).removeClass("hovering");
+  });
+});

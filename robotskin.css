@@ -165,6 +165,10 @@ h5 {
 
 /*search field focus*/
 
-.focused{
+.focused {
   border: solid 3px blue;
   }
+
+.hovering {
+  background-color: yellow;
+}
