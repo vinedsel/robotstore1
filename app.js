@@ -22,13 +22,15 @@ $(document).ready(function() {
   });
 });
 
+
+
 // Hardware highlights
 
 $(document).ready(function() {
-  $("#i3, #i4, #i7, #8, #16, #vrh, #3ds, #ss").mouseover(function() {
-    $(this).addClass("hovering");
+  $("#i3text, #i4text, #i7text, #8g, #16g, #vrh, #3ds, #ss").mouseover(function() {
+    $(this).addClass("highlight");
   });
-  $("#i3, #i4, #i7, #8, #16, #vrh, #3ds, #ss").mouseout(function() {
-    $(this).removeClass("hovering");
+  $("#i3text, #i4text, #i7text, #8g, #16g, #vrh, #3ds, #ss").mouseout(function() {
+    $(this).removeClass("highlight");
   });
 });
