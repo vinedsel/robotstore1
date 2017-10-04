@@ -1,23 +1,10 @@
-// Contact page focus group
+// Contact page focus group and Picture and info highlights
 
 $(document).ready(function() {
-  $("#fullname, #email, #question").mouseover(function() {
+  $("#fullname, #email, #question, #imgrobo1, #imgrobo2, #imgrobo3").mouseover(function() {
     $(this).addClass("focused");
   });
-  $("#fullname, #email, #question").mouseout(function() {
-    $(this).removeClass("focused");
-  });
-});
-
-
-
-// Picture and info highlights
-
-$(document).ready(function() {
-  $("#imgrobo1, #imgrobo2, #imgrobo3").mouseover(function() {
-    $(this).addClass("focused");
-  });
-  $("#imgrobo1, #imgrobo2, #imgrobo3").mouseout(function() {
+  $("#fullname, #email, #question, #imgrobo1, #imgrobo2, #imgrobo3").mouseout(function() {
     $(this).removeClass("focused");
   });
 });
@@ -34,3 +21,28 @@ $(document).ready(function() {
     $(this).removeClass("highlight");
   });
 });
+
+
+
+// Filter engine
+
+// <script>
+//   function myFunction() {
+//     // Declare variables
+//     var input, filter, ul, li, a, i;
+//     input = document.getElementById('myInput');
+//     filter = input.value.toUpperCase();
+//     ul = document.getElementById("myUL");
+//     li = ul.getElementsByTagName('li');
+//
+//     // Loop through all list items, and hide those who don't match the search query
+//     for (i = 0; i < li.length; i++) {
+//       a = li[i].getElementsByTagName("a")[0];
+//       if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+//         li[i].style.display = "";
+//       } else {
+//         li[i].style.display = "none";
+//       }
+//     }
+//   }
+// </script>
