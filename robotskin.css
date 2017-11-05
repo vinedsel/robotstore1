@@ -3,7 +3,7 @@
 header div a img {
   position: relative;
   margin-left: auto;
-  top: 72px;
+  top: -74px;
   height: 300px;
   width: 300px;
 }
@@ -12,6 +12,7 @@ header div a img {
 /*business header*/
 
 header div span {
+  font-family: serif;
   font-size: 1500%;
   position: relative;
 }
@@ -83,42 +84,89 @@ body {
   background-color: white;
 }
 
+/*main body text*/
+
+.col-sm {
+  font-family: serif;
+  font-size: 18px;
+}
+
 /*footer*/
 
-footer p {
+.footer {
   position: relative;
   display: block;
+  padding-top: 23%;
+  justify-content: center;
+}
+
+.p-2 {
+  justify-content: center;
+  position: relative;
+  display: flex;
+  color: grey;
+  background-color: black;
+  width: 400px;
+  height: 50px;
+  left: 39%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+div p {
+  padding-top: 3px;
+}
+
+div address {
+  padding-top: 3px;
+}
+
+
+
+/*div footer p {
+  position: relative;
+  display: flex;
   text-align: center;
   vertical-align: middle;
   padding-top: 17px;
   height: 40px;
   width: 300px;
-  color: white;
+  color: grey;
   background-color: black;
   left: 660px;
+  top: 25px;
 
-}
+}*/
 
-address {
+/*.topline {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: grey;
+
+}*/
+
+/*address {
   display: block;
   position: relative;
-  text-align: center;
+  justify-content: center;
   padding-top: 17px;
   height: 40px;
   width: 300px;
   color: white;
   background-color: black;
   left: 660px;
-}
+  top: 25px;
+}*/
 
-.textcontent {
+/*.textcontent {
   text-align: center;
 }
 
 .smalltext {
   text-align: center;
   float: center;
-}
+}*/
 
 /*home page text*/
 
