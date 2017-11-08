@@ -78,6 +78,14 @@ nav ul li>a:hover {
   background-color: white;
 }
 
+/*Welcome Image*/
+
+.d-flex {
+  position: relative;
+  display: inline-flex;
+  padding-bottom: 55px;
+}
+
 /*background color*/
 
 body {
@@ -86,8 +94,13 @@ body {
 
 /*main body text*/
 
+.container {
+  padding-bottom: -23%;
+}
+
 .col-sm {
-  font-family: serif;
+  font-family: sans-serif,
+  Verdana;
   font-size: 18px;
 }
 
@@ -98,6 +111,7 @@ body {
   display: block;
   padding-top: 23%;
   justify-content: center;
+
 }
 
 .p-2 {
@@ -108,67 +122,33 @@ body {
   background-color: black;
   width: 400px;
   height: 50px;
-  left: 39%;
   border-radius: 5px;
   margin-bottom: 5px;
 }
 
+.d-flex-row {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
 div p {
-  padding-top: 3px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-top: 5px;
 }
 
 div address {
-  padding-top: 3px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-top: 5px;
 }
 
 
 
-/*div footer p {
-  position: relative;
-  display: flex;
-  text-align: center;
-  vertical-align: middle;
-  padding-top: 17px;
-  height: 40px;
-  width: 300px;
-  color: grey;
-  background-color: black;
-  left: 660px;
-  top: 25px;
 
-}*/
-
-/*.topline {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  color: grey;
-
-}*/
-
-/*address {
-  display: block;
-  position: relative;
-  justify-content: center;
-  padding-top: 17px;
-  height: 40px;
-  width: 300px;
-  color: white;
-  background-color: black;
-  left: 660px;
-  top: 25px;
-}*/
-
-/*.textcontent {
-  text-align: center;
-}
-
-.smalltext {
-  text-align: center;
-  float: center;
-}*/
-
-/*home page text*/
 
 #welcometext {
   column-count: 2;
@@ -216,16 +196,6 @@ h5 {
 .focused {
   border: solid 3px blue;
   }
-
-/*form fieldset legend p label>span.hover {
-  color: blue;
-  font-weight: bold;
-}*/
-
-.highlight {
-  color: blue;
-  font-weight: bold;
-}
 
 /*loading screen*/
 
