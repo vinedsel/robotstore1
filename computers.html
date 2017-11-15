@@ -3,15 +3,15 @@
 
 <head>
   <title>Mr Robot!</title>
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" /> -->
-  <link rel="stylesheet" href="robotskin.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <script src="bower_components/jQuery/dist/jquery.min.js" type="text/javascript"></script>
-  <script <script src="app.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="robotskin.css">
 </head>
 
 <body>
 
-  <div class="loader"></div>
+  <!-- <div class="loader"></div> -->
 
   <header>
     <div>
@@ -19,7 +19,6 @@
                 <img src="images/logo.jpg" />
             </a>
       <span id="headername">Mr. Robot</span>
-      <input type="search" class="searchbox" placeholder="Search our store" />
     </div>
 
     <nav class="backgroundgradient">
@@ -35,49 +34,83 @@
 
   <br />
 
-  <form>
-    <fieldset>
-      <legend><strong>Select a CPU</strong></legend>
+  <div class="mastercontainer" class="flex-column">
+    <div class="d-flex justify-content-center">
+      <form>
+        <fieldset class="minicontainer" class="row">
+          <h4 class="selex"><strong>Select a CPU</strong></h4>
 
-      <p><label for="i3"><input type="radio" name="CPU" id="i3"><span id="i3text">Intel i3</span></label></p>
+          <p class="hdwr"><label for="i3"><input type="radio" name="CPU" id="i3"><span id="i3text"> Intel i3</span></label></p>
 
-      <p><label for="i4"><input type="radio" name="CPU" id="i4"><span id="i4text">Intel i4</span></label></p>
+          <p class="hdwr"><label for="i4"><input type="radio" name="CPU" id="i4"><span id="i4text"> Intel i4</span></label></p>
 
-      <p><label for="i7"><input type="radio" name="CPU" id="i7"><span id="i7text">Intel i7</span></label></p>
-    </fieldset>
+          <p class="hdwr"><label for="i7"><input type="radio" name="CPU" id="i7"><span id="i7text"> Intel i7</span></label></p>
+        </fieldset>
 
-    <fieldset>
-      <legend><strong>Select Ram</strong></legend>
+        <fieldset class="minicontainer" class="row">
+          <h4 class="selex"><strong>Select Ram</strong></h4>
 
-      <p><label for="8"><input type="radio" name="ram" id="8"><span id="8g">8gig</span></label></p>
+          <p class="hdwr"><label for="8"><input type="radio" name="ram" id="8"><span id="8g"> 8gig</span></label></p>
 
-      <p><label for="16"><input type="radio" name="ram" id="16"><span id="16g">16gig</span></label></p>
-    </fieldset>
+          <p class="hdwr"><label for="16"><input type="radio" name="ram" id="16"><span id="16g"> 16gig</span></label></p>
+        </fieldset>
 
-    <fieldset>
-      <legend><strong>Select Peripherals</strong></legend>
+        <fieldset class="minicontainer" class="row">
+          <h4 class="selex"><strong>Select Peripherals</strong></h4>
 
-      <p><label for="vrh"><input type="checkbox" id="vrh"><span id="vrh">Virtual Reality Helmet</span></label></p>
+          <p class="hdwr"><label for="vrh"><input  type="checkbox" id="vrh"><span id="vrh"> Virtual Reality Helmet</span></label></p>
 
-      <p><label for="3ds"><input type="checkbox" id="3ds"><span id="3ds">3D Screen</span></label></p>
+          <p class="hdwr"><label for="3ds"><input  type="checkbox" id="3ds"><span id="3ds"> 3D Screen</span></label></p>
 
-      <p><label for="ss"><input type="checkbox" id="ss"><span id="ss">Stereo Speakers</span></label></p>
-    </fieldset>
+          <p class="hdwr"><label for="ss"><input  type="checkbox" id="ss"><span id="ss"> Stereo Speakers</span></label></p>
+        </fieldset>
 
-    <p>
-      <button>Submit</button>
-    </p>
+        <p>
+          <button>Submit</button>
+        </p>
 
-  </form>
+      </form>
+    </div>
+  </div>
 
-  <footer>
-    <p>We are located at:<address>1011 Crater Ave, Moon City: THE MOON</address></p>
-    <p class="textcontent">All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com">Mr Robot!</a></p>
-    <p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
-  </footer>
+  <div class="footer" class="d-flex-column">
+    <footer>
+      <div id="foot" class="col-sm-12">
+
+        <div class="d-flex-row">
+          <div class="p-2 justify-content-center">
+            <p>We are located at:</p>
+          </div>
+        </div>
+
+        <div class="d-flex-row">
+          <div class="p-2 justify-content-center">
+            <address>1011 Crater Ave, Moon City: THE MOON</address>
+          </div>
+        </div>
+
+        <div class="d-flex-row">
+          <div class="p-2 justify-content-center">
+            <p>All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com"> Mr Robot!</a></p>
+          </div>
+        </div>
+
+        <div class="d-flex-row">
+          <div class="p-2 justify-content-center">
+            <p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 
 
-  <script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="app.js" type="text/javascript"></script>
+  <!-- <script>
     /* TODO: Move To js file */
     /*********************************************************
      *
@@ -104,7 +137,7 @@
         alert(results);
       });
     }
-  </script>
+  </script> -->
 </body>
 
 </html>

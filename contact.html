@@ -3,16 +3,15 @@
 
 <head>
   <title>Mr Robot!</title>
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" /> -->
-
-  <link rel="stylesheet" href="robotskin.css" type="text/css" />
-  <script src="bower_components/less/dist/less.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="robotskin.css">
   <script src="bower_components/jQuery/dist/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body>
 
-  <div class="loader"></div>
+  <!-- <div class="loader"></div> -->
 
   <header>
     <div>
@@ -20,7 +19,7 @@
                 <img src="images/logo.jpg" />
             </a>
       <span id="headername">Mr. Robot</span>
-      <input type="search" class="searchbox" placeholder="Search our store" />
+
     </div>
 
     <nav class="backgroundgradient">
@@ -33,41 +32,83 @@
       </ul>
     </nav>
   </header>
-  <div id="welcomeimage">
-    <img src="images/Mr.-Robot-Welcome.png" height="400px" alt="About us">
-  </div>
-  <form id="contactForm">
-    <fieldset>
-      <div>
-        <legend>Enter your Contact info below:</legend>
-        <p>
-          <label for="fullname">Full Name: </label><input type="text" name="fullname" id="fullname">
-        </p>
-        <p>
-          <label for="email">   Email: </label><input type="email" name="email" id="email">
-        </p>
-        <p>
-          <label for="yloc">   Location: </label>
-          <select name="" id="yloc">
+
+  <div class="mastercontainer" class="flex-column">
+    <div class="d-flex justify-content-center">
+      <div id="welcomeimage">
+        <img src="images/Mr.-Robot-Welcome.png" height="400px" alt="About us">
+      </div>
+    </div>
+
+    <div class="row align-items-center justify-content-center">
+      <div class="container_sub">
+        <form id="contactForm">
+          <fieldset>
+            <div>
+              <legend id="legend">Enter your Contact info below:</legend>
+              <p>
+                <label for="fullname"></label><input type="text" name="fullname" id="fullname" placeholder="Full Name">
+              </p>
+              <p>
+                <label for="email"></label><input type="email" name="email" id="email" placeholder="Email">
+              </p>
+              <p>
+                <label for="yloc">   Location: </label>
+                <select name="" id="yloc">
       <option value="0">Moon</option>
       <option value="1">Earth</option>
     </select>
-        </p>
-        <p><label for="quest">Your Question</label><br>
-          <textarea name="quest" id="question" cols="50" rows="10" maxlength="500"></textarea></p>
+              </p>
+              <p><label for="quest"></label><br>
+                <textarea name="quest" id="question" cols="50" rows="10" maxlength="500" placeholder="Your Question"></textarea></p>
+            </div>
+
+          </fieldset>
+          <div class="col" id="sendbutton">
+            <p>
+              <button id="btnSendInfo" class="submitbutton">Send Info</button>
+            </p>
+          </div>
+        </form>
       </div>
+    </div>
 
-    </fieldset>
-    <p>
-      <button id="btnSendInfo" class="submitbutton">Send Info</button>
-    </p>
-  </form>
-  <footer>
-    <p>We are located at:<address>1011 Crater Ave, Moon City: THE MOON</address></p>
-    <p class="textcontent">All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com">Mr Robot!</a></p>
-    <p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
-  </footer>
+    <div class="footer" class="d-flex-column">
+      <footer>
+        <div id="foot" class="col-sm-12">
 
+          <div class="d-flex-row">
+            <div class="p-2 justify-content-center">
+              <p>We are located at:</p>
+            </div>
+          </div>
+
+          <div class="d-flex-row">
+            <div class="p-2 justify-content-center">
+              <address>1011 Crater Ave, Moon City: THE MOON</address>
+            </div>
+          </div>
+
+          <div class="d-flex-row">
+            <div class="p-2 justify-content-center">
+              <p>All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com"> Mr Robot!</a></p>
+            </div>
+          </div>
+
+          <div class="d-flex-row">
+            <div class="p-2 justify-content-center">
+              <p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="app.js" type="text/javascript"></script>
 
 </body>
