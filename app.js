@@ -1,11 +1,11 @@
 // Contact page focus group and Picture and info highlights
 
 $(document).ready(function() {
-  $("#fullname, #email, #question, #imgrobo1, #imgrobo2, #imgrobo3").mouseover(function() {
-    $(this).addClass("focused");
+  $("#fullname, #email, #question, #imgrobo1, #imgrobo2, #imgrobo3, #i3text, #i4text, #i7text, #8g, #16g, #vrh, #3ds, #ss").mouseover(function() {
+    $(this).addClass("focused", {color: '#E70909'});
   });
-  $("#fullname, #email, #question, #imgrobo1, #imgrobo2, #imgrobo3").mouseout(function() {
-    $(this).removeClass("focused");
+  $("#fullname, #email, #question, #imgrobo1, #imgrobo2, #imgrobo3, #i3text, #i4text, #i7text, #8g, #16g, #vrh, #3ds, #ss").mouseout(function() {
+    $(this).removeClass("focused", {color: '#E70909'});
   });
 });
 
@@ -13,14 +13,14 @@ $(document).ready(function() {
 
 // Hardware highlights
 
-$(document).ready(function() {
-  $("#i3text, #i4text, #i7text, #8g, #16g, #vrh, #3ds, #ss").mouseover(function() {
-    $(this).addClass("highlight");
-  });
-  $("#i3text, #i4text, #i7text, #8g, #16g, #vrh, #3ds, #ss").mouseout(function() {
-    $(this).removeClass("highlight");
-  });
-});
+// $(document).ready(function() {
+//   $("#i3text, #i4text, #i7text, #8g, #16g, #vrh, #3ds, #ss").mouseover(function() {
+//     $(this).addClass("highlight", {color: '#E70909'});
+//   });
+//   $("#i3text, #i4text, #i7text, #8g, #16g, #vrh, #3ds, #ss").mouseout(function() {
+//     $(this).removeClass("highlight", {color: '#E70909'});
+//   });
+// });
 
 
 
