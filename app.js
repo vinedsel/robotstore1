@@ -2,10 +2,10 @@
 
 $(document).ready(function() {
   $("#fullname, #email, #question, #imgrobo1, #imgrobo2, #imgrobo3, #i3text, #i4text, #i7text, #8g, #16g, #vrh, #3ds, #ss").mouseover(function() {
-    $(this).addClass("focused", {color: '#E70909'});
+    $(this).addClass("focused", {color: '#E70909'}, 3000);
   });
   $("#fullname, #email, #question, #imgrobo1, #imgrobo2, #imgrobo3, #i3text, #i4text, #i7text, #8g, #16g, #vrh, #3ds, #ss").mouseout(function() {
-    $(this).removeClass("focused", {color: '#E70909'});
+    $(this).removeClass("focused", {color: '#E70909'}, 3000);
   });
 });
 
