@@ -446,11 +446,16 @@ h5 {
 
 /*we are the robots*/
 
+#myUL {
+  list-style-type: none;
+}
+
 .container_multi {
   position: relative;
-  display: block;
+  display: inline-flex;
   justify-content: center;
   margin-left: -50px;
+  width: 100%;
 }
 
 #toprobo {
