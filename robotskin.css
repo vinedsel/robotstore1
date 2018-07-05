@@ -538,6 +538,10 @@ ul {
   margin-top: 30px;
 }
 
+mark {
+  border-radius: 10px;
+}
+
 /* highlight */
 
 /* label {
