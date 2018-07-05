@@ -1,9 +1,21 @@
+/* logo and business header container */
+
+.head-container {
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  background-color: #00bfff;
+}
+
 /*logo image*/
 
 header div a img {
   position: relative;
-  margin-left: auto;
-  top: -74px;
+  justify-content: inline;
+  margin: 0 auto;
+  display: inline-flex;
+  /* top: -74px; */
   height: 300px;
   width: 300px;
 }
@@ -12,9 +24,13 @@ header div a img {
 /*business header*/
 
 header div span {
+  position: relative;
+  justify-content: center;
+  margin: 0 auto;
   font-family: serif;
   font-size: 1500%;
-  position: relative;
+  text-align: center;
+  display: flex;
 }
 
 
