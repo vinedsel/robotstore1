@@ -6,6 +6,11 @@
   justify-content: center;
   display: flex;
   background-color: #00bfff;
+  top: 3%;
+}
+
+header {
+  background-color: #00bfff;
 }
 
 /*logo image*/
@@ -15,8 +20,9 @@ header div a img {
   justify-content: inline;
   margin: 0 auto;
   display: inline-flex;
-  /* top: -74px; */
-  height: 300px;
+  top: 25px;
+  margin-bottom: 35px;
+  height: 210px;
   width: 300px;
 }
 
@@ -119,7 +125,7 @@ nav ul li>a:hover {
 /*background color*/
 
 body {
-  background-color: white;
+  background-color: #00bfff;
 }
 
 /*header text*/
@@ -287,6 +293,7 @@ label {
   width: 950px;
   background-color: grey;
   border-radius: 10px;
+  margin-top: -40px;
 }
 
 h3 {
